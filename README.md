@@ -1,8 +1,8 @@
-#Two Sum
+# Two Sum
 
 Given an array of integers, return indices of the two numbers such that they add up to a specific target.
 
-##Algorithm
+## Algorithm
 
 One-pass Hash Table. While we iterate and inserting elements into the table, we also look back to check if current element's complement already exists in the table. If it exists, we have found a solution and return immediately.
 
